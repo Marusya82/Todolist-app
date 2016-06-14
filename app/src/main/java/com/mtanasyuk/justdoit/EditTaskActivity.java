@@ -18,6 +18,7 @@ public class EditTaskActivity extends AppCompatActivity {
         etEditTask = (EditText) findViewById(R.id.etEditTask);
         String taskToEdit = getIntent().getStringExtra("taskContent");
         etEditTask.setText(taskToEdit);
+        etEditTask.setSelection(etEditTask.getText().length());
     }
 
     public void onSaveTask(View view) {
