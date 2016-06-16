@@ -100,10 +100,6 @@ public class MainActivity extends AppCompatActivity {
         );
     }
 
-//    private void launchEditActivity() {
-//
-//    }
-
     // time to handle the result of the sub-activity
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
